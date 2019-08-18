@@ -10,6 +10,7 @@
       6. mdn
       7. wall haven 背景图
       8. iconfont
+      9. [元素居中](https://www.zhihu.com/search?type=content&q=css%20%E5%B1%85%E4%B8%AD)
    2. 解决浮动横排的 下排的元素会环绕的bug
 ```
 在父标签上加上这个样式
