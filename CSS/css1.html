@@ -9,32 +9,88 @@
 </head>
 <style>
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
 body nav ul li {
     float: left;
     list-style: none;
-    border: 1px red solid;
     font-size: 14px;
     text-decoration: none;
+    padding: 16px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body nav ul li a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid transparent;
+    padding: 4px;
+}
+body nav ul li a:hover {
+ border-bottom: rgb(246, 184, 110) 3px solid;
+}
+
+body div nav ul {
+    float: right;
 }
 
 .ul-class {
     margin: 0;
     padding: 0;
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a.sd-card {
+    padding: 16px;
+    display: block;
+}
+
+.nav-father {
+    position:fixed;
+    background-color: rgb(151, 143, 133, 0.5);
+    width: 100%;
+}
+
+.background-img {
+    border: 1px red solid;
+    background-size: cover;
+    background-image: url("C:/Users/Administrator/Pictures/1.jpg");
+    height: 400px;
+}
+
 </style>
 <body>
-    <nav class="clearfix">
-        <ul class='ul-class'>
-            <li><a href="#">关于</a></li>
-            <li>技能</li>
-            <li>学习</li>
-            <li>我的</li>
-            <li>作品</li>
-        </ul>
-    </nav>
+    <div class='nav-father'>
+        <nav >
+            <ul class='ul-class clearfix' >
+                <li><a href="#">关于</a></li>
+                <li><a href="#">技能</a></li>
+                <li><a href="#">学习</a></li>
+                <li><a href="#">我的</a></li>
+                <li><a href="#">作品</a></li>
+                <li><a href="#">其他</a></li>
+            </ul>
+        </nav>
+        <a href="#" class='sd-card'>
+            <span>SD</span>
+            <span>scard</span>
+        </a>
+    </div>
     <footer>
-        <div>
-            这个是修改浮动的
+        <div class='background-img'>
+            
         </div>
     </footer>
 

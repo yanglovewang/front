@@ -1,6 +1,6 @@
 ## 前端一些技巧
 
-### css
+### 几个技巧
    1. Google 关键词
       1. CSS Tricks
       2. 阮一峰
@@ -9,6 +9,7 @@
       5. CSS揭秘
       6. mdn
       7. wall haven 背景图
+      8. iconfont
    2. 解决浮动横排的 下排的元素会环绕的bug
 ```
 在父标签上加上这个样式
@@ -37,3 +38,13 @@
       1. 如果一个div宽度写死想要居中：
          1. margin-left:auto;
          2. margin-right:auto;
+
+### 几个效果
+
+1. sticky nabar  黏糊导航
+2. auto highLight navbar 导航自动响应
+3. auto scroll smoothly 自动跳转滚动
+4. menu 下拉菜单
+5. auto hide aside 自动隐藏侧边栏
+6. loading animation 加载动画
+7. animate when scroll 滚动动画

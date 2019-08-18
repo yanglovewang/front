@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .bar-css {
+            border: solid 1px black;
+            width: 300px;
+            margin: auto;
+            margin-top: 200px;
+        }
+
+        .bar-css-inner {
+            border: solid 1px black;
+            margin-left: 0px; 
+            background-color: aqua;
+            animation: inner 2s;
+            animation-fill-mode:forwards;
+        }
+
+        @keyframes inner {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class='bar-css'>
+            <div class="bar-css-inner"></div>
+    </div>
+</body>
+</html>

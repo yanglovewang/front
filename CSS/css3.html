@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid red;
+
+        }
+
+        div.div-line {
+            margin: 30px;
+            border: 1px solid transparent;
+        }
+        .parent1 {
+            position: relative;
+            padding: 2px;
+        }
+        .child1 {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .parent2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .parent3 {
+            text-align: center;
+        }
+
+        .parent4 {
+            width: 100%;
+        }
+        .child4 {
+            width: 400px;
+            margin: 0 auto;
+            background: #999;
+            text-align: center;
+        }
+
+        .child5 {
+            width: 100px;
+            float: left;
+            position: relative;
+            left: 50%;
+            margin-left: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent1">
+        <div class="child1">
+            我要水平居中
+        </div>
+    </div>
+
+    <div class="div-line"></div>
+
+    <div class="parent2">
+            <div class="child2">
+                我要水平居中
+            </div>
+        </div>
+
+        <div class="div-line"></div>
+
+    <div class="parent3">
+         <a>内联元素水平居中</a>
+    </div>
+
+    <div class="div-line"></div>
+
+    <div class="parent4">
+        <div class="child4">
+            宽度写死居中
+        </div>
+    </div>
+
+    <div class="div-line"></div>
+
+    <div class="parent5">
+        <div class="child5">
+            浮动元素居中
+        </div>
+    </div>
+
+</body>
+</html>
